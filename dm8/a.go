@@ -15,7 +15,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/godoes/gorm-dameng/dm8/security"
+	"github.com/wubin1989/gorm-dameng/dm8/security"
 )
 
 const (

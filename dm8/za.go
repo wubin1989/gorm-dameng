@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/godoes/gorm-dameng/dm8/i18n"
+	"github.com/wubin1989/gorm-dameng/dm8/i18n"
 )
 
 // 驱动级错误
