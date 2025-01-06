@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"gorm.io/gorm"
+	"github.com/wubin1989/gorm"
 )
 
 func TestDialector_QuoteTo(t *testing.T) {

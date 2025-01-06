@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"reflect"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/callbacks"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
+	"github.com/wubin1989/gorm"
+	"github.com/wubin1989/gorm/callbacks"
+	"github.com/wubin1989/gorm/clause"
+	"github.com/wubin1989/gorm/schema"
 )
 
 func Create(db *gorm.DB) {

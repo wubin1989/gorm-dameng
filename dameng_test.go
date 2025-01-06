@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/godoes/gorm-dameng/dm8"
-	"gorm.io/gorm"
-	"gorm.io/gorm/logger"
+	"github.com/wubin1989/gorm"
+	"github.com/wubin1989/gorm/logger"
 )
 
 var (

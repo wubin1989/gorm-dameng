@@ -8,12 +8,12 @@ import (
 	"strings"
 
 	_ "github.com/godoes/gorm-dameng/dm8" // 引入dm数据库驱动包
-	"gorm.io/gorm"                        // 引入gorm v2包
-	"gorm.io/gorm/callbacks"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/wubin1989/gorm"           // 引入gorm v2包
+	"github.com/wubin1989/gorm/callbacks"
+	"github.com/wubin1989/gorm/clause"
+	"github.com/wubin1989/gorm/logger"
+	"github.com/wubin1989/gorm/migrator"
+	"github.com/wubin1989/gorm/schema"
 )
 
 type Config struct {
